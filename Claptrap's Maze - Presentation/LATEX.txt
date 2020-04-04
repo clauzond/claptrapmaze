@@ -1,0 +1,25 @@
+\documentclass{article}
+
+\usepackage{listings}
+\input{listings-python.prf}
+\usepackage{textcomp}
+
+\lstset{
+language={Python},style={python-idle-code},
+basicstyle=\tiny,
+showstringspaces=false,
+tabsize=4,
+morekeywords={models, lambda, forms}
+upquote=true,
+}
+
+\oddsidemargin=-1cm
+\textwidth=1cm  % This just fits 80 characters at 10pt
+\setlength{\headheight}{-10pt}
+\setlength{\headsep}{-20pt}
+\setlength{\textheight}{650pt}
+
+
+\begin{document}
+\lstinputlisting{myscript.py}
+\end{document}
