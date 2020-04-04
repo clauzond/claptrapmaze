@@ -1,0 +1,2 @@
+http://pyautogui.readthedocs.io/en/latest/cheatsheet.html
+
